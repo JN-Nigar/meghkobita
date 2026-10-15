@@ -7,13 +7,10 @@ No build step and no environment variables. Live weather comes from Open-Meteo, 
 
 ## Deploy to Vercel
 
-Option A, no install: go to https://vercel.com/new, choose "Import" from a GitHub repo containing these files,
-keep Framework Preset = "Other", and click Deploy.
-
-Option B, command line:
+command line:
 
     npm i -g vercel
     cd meghkobita
     vercel --prod
 
-You get a URL like https://meghkobita.vercel.app (or a variant if that name is taken).
+https://meghkobita.vercel.app 
